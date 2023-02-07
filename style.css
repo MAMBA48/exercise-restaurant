@@ -11,6 +11,11 @@ body, a {
     color: #9B3853;
     font-size: 32px;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 li {
     list-style: none;
     padding: 4px;
