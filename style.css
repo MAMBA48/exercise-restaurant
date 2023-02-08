@@ -3,32 +3,60 @@
 * {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 body, a {
     background-color: #EDEDED;
     color: #9B3853;
-    font-size: 32px;
+    font-size: 28px;
 }
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+ul {
+    margin-bottom: 50px;
+}
 li {
     list-style: none;
-    padding: 4px;
-    margin-bottom: 20px;
-    margin-left: 25px;
+    margin-left: 15px;
+}
+input, select {
+    top: 5px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+#submit {
+    margin-top: 30px;
+    width: 80px;
+}
+textarea {
+    height: 60px;
+    width: 250px;
 }
 main {
     display: flex;
 }
 div {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
+}
+.prop {
+    margin-bottom: 20px;
+}
+article.radio {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+    font-size: 1rem;
+    color: #000;
+}
+input#radio {
+    width: 20px;
+    margin: 0%;
 }
 section {
     display: flex;
@@ -38,21 +66,24 @@ section {
     padding: 10px;
     padding-bottom: 50px;
     height: auto;
-    min-height: 550px;
-    width: 550px;
+    min-height: 500px;
+    width: 450px;
 }
 label {
     display: flex;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
     align-items: center;
-    font-weight: bolder;
     color: #000;
 }
 h3 {
-    font-weight: bolder;
+    font-weight: bold;
     margin: 10px;
 }
 a {
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
     margin-left: 10px;
 }
 img {
@@ -73,9 +104,9 @@ h4, h5 {
     color: #000;
 }
 p {
-    font-size: 24px;
+    font-size: 1.2rem;
     padding: 10px;
-    padding-left: 10px;
+    margin-left: 10px;
     color: #000;
 }
 

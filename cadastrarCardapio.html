@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<body>
+    <main id="cont" class="container">
+        <article>
+            <section>
+                <h3>Cadastrar Cardápio</h3>
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="name">
+                    <label for="descricao">Descrição:</label>
+                    <textarea name="descricao" id="" cols="20" rows="10"></textarea>
+                        <article class="radio">
+                            <p style="font-size: 1.2rem;">Ativo?</p>
+                            <input id="radio" type="radio" name="opc" value="sim">Sim
+                            <input id="radio" type="radio" name="opc" value="nao">Não
+                        </article>
+                        <hr>
+                        <h4>Pratos</h4>
+                        <label for="type">Prato 1:</label>
+                        <select name="options" id="">
+                            <option value="escolha">Escolha</option>
+                            <option value="chicken">X-Chicken</option>
+                        </select>
+                        <label for="valor">Valor:</label>
+                        <input type="number">
+
+                        <label for="type">Prato 2:</label>
+                        <select name="options" id="">
+                            <option value="escolha">Escolha</option>
+                            <option value="chicken">X-Chicken</option>
+                        </select>
+                        <hr>
+                        <h4>Bebidas</h4>
+                        <label for="type">Bebida:</label>
+                        <select name="options" id="">
+                            <option value="escolha">Escolha</option>
+                            <option value="chicken">Pepsi</option>
+                        </select>
+                        <label for="valor">Valor:</label>
+                        <input type="number">
+                </div>
+                <a href="prop.html" style="color: grey; font-size: 24px;">voltar</a>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
