@@ -1,0 +1,45 @@
+* {
+    background-color: transparent;
+    margin: 0%;
+    padding: 0%;
+}
+section {
+    background-color: #ffffc8;
+    border-radius: 10px;
+}
+a {
+    background-color: #ffffc8;
+}
+input {
+    all: unset;
+    font-size: 1.250rem;
+    background-color: #fff;
+    padding: 4px;
+    height: 24px;
+    width: 200px;
+    margin-bottom: 4%;
+    box-shadow: 0 0 4px 1px rgb(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+select {
+    background-color: #fff;
+    width: 150px;
+    font-size: 1rem;
+    padding: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+label.cliente {
+    font-size: 1.250rem;
+    justify-content: center;
+    color: #a10303;
+}
+h2 {
+    margin: 1rem 2rem;
+}
+.cardapioCliente {
+    flex-direction: row;
+}
+li {
+    margin-bottom: 30px;
+}
