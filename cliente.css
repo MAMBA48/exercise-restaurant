@@ -4,6 +4,7 @@
     padding: 0%;
 }
 section {
+    display: inline-block;
     background-color: #ffffc8;
     border-radius: 10px;
 }
@@ -42,4 +43,7 @@ h2 {
 }
 li {
     margin-bottom: 30px;
+}
+.pedido {
+    bottom: 10px;
 }
