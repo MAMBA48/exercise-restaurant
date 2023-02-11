@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/cliente.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<body>
+    <main id="cont" class="container">
+        <article>
+            <section align="center" 
+            style="font-size: 1rem;">
+
+                <h2 align="center">Valor: R$ 56,00</h2>
+                <form action="post">
+                    <label class="cliente" for="pagamento">Forma de pagamento:</label>
+                    <select name="pagamento" id="pagamento">
+                        <option id="debito" value="debito">Débito</option>
+                    </select>
+                    <label class="cliente" for="numCard">Número do Cartão:</label>
+                    <input id="numCard" type="text">
+                    <label class="cliente" for="cod">CVV:</label>
+                    <input id="cod" type="text">
+                    <label class="cliente" for="cep">Vencimento:</label>
+                    <input id="cep" type="text">
+                </form>
+                <div style="margin-top: 6%;">
+                    <a href="pedidoRealizado.html">Finalizar Pedido</a>
+                </div>
+            </section>
+        </article>
+    </main>
+</body>
+</html>

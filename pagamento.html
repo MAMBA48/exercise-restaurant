@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/cliente.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
@@ -15,28 +17,34 @@
         <article>
             <section align="center" 
             style="font-size: 1rem;">
-
-                <h3 align="center">Endereço</h3>
+                <h2>Endereço</h2>
                 <form action="post">
-                    <label for="cep">Cep:</label>
+                    <label class="cliente" for="cep">Cep:</label>
                     <input id="cep" type="text">
-                    <label for="cep">Rua:</label>
+                    <label class="cliente" for="cep">Rua:</label>
                     <input id="cep" type="text">
-                    <label for="cep">Número:</label>
+                    <label class="cliente" for="cep">Número:</label>
                     <input id="cep" type="text">
-                    <label for="cep">Bairro:</label>
+                    <label class="cliente" for="cep">Bairro:</label>
                     <input id="cep" type="text">
                     <hr>
-                    <h3 align="center">Endereço</h3>
-                    <label for="prato">Prato:</label>
+                    <h2>Prato</h2>
+                    <label class="cliente" for="prato">Prato:</label>
                     <select name="prato" id="prato">
                         <option value="escolha">Escolha</option>
                     </select>
-                    <label for="qtd">Quantidade:</label>
+                    <label class="cliente" for="qtd">Quantidade:</label>
+                    <input type="number" name="qtd" id="qtd">
+                    <h2>Bebida</h2>
+                    <label class="cliente" for="prato">Bebida:</label>
+                    <select name="prato" id="prato">
+                        <option value="escolha">Escolha</option>
+                    </select>
+                    <label class="cliente" for="qtd">Quantidade:</label>
                     <input type="number" name="qtd" id="qtd">
                 </form>
                 <div style="margin-top: 6%;">
-                    <a href="pagamento.html">Efetuar Pagamento</a>
+                    <a href="finalPagamento.html">Efetuar Pagamento</a>
                 </div>
             </section>
         </article>
